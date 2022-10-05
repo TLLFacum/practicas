@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(231, 177, 241);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buscador{
+    display: block;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    margin-left: 10px;
+}
