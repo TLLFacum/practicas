@@ -37,7 +37,7 @@ $q= "SELECT COUNT(*) as contar from usuarios where user = '$usuario' and pass = 
 $consulta= mysqli_query($conexion,$q);
 $array = mysqli_fetch_array($consulta);
 if ($array['contar']>0){
-    echo 'muy bien lo lograste campeon ;]';
+    header("location:../prueba/xd.php");
 }
 else{
     echo "usuario o contraseña incorrectos bro";
